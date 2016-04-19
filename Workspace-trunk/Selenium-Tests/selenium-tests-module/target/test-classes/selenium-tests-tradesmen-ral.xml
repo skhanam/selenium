@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tradesmen  Selenium Suite" verbose="1">
+
+	<test name="Tradesmen Request A CallBack Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.requestCallBackAndRating" />
+		</packages>
+	</test>
+	
+</suite>

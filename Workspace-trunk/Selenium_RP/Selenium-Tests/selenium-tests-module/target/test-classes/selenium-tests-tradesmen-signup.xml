@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tradesmen  Selenium Suite" verbose="1">
+	<test name="Tradesmen Sign up Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup" />
+		</packages>
+	</test>
+	
+</suite>

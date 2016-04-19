@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Coresystems Testsuite" verbose="1">
+
+	<test name="Sanity Coresystems Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_masquerade.*" />
+			<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmbalance.*" />
+			<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.*" />								
+		</packages>
+	</test>
+	
+</suite>

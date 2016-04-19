@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="External Wooden Door Jobform Selenium Suite" verbose="1">
+
+	<test name="External Wooden Door Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.externalwoodendoor" />
+		</packages>
+	</test>
+	
+</suite>

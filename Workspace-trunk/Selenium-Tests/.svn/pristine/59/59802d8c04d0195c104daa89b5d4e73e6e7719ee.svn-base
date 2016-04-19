@@ -1,0 +1,3 @@
+functional.test.host=devbox18.uk.ratedpeople
+functional.test.support=devbox18.uk.ratedpeople
+functional.test.port=80

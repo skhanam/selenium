@@ -1,0 +1,8 @@
+# Default set of environment properties for those contexts in which no explicit set can be identified. 
+# Hudson uses these properties for the functional test build
+functional.test.host=dev2.uk.ratedpeople
+#functional.test.host=devbox04.uk.ratedpeople
+functional.test.port=80
+
+functional.test.tp.host=tpweb.fixme
+functional.test.tp.port=80

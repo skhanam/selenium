@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tiling Selenium Suite" verbose="1">
+
+	<test name="Tiling Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.tiling" />
+		</packages>
+	</test>
+	
+</suite>

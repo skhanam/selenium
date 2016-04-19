@@ -1,0 +1,100 @@
+<suite name="Parallel Tests" verbose="1" thread-count="3" parallel="tests">
+
+
+  <test name="Firefox Test">
+      <parameters>
+         <parameter name="platform" value="LINUX" />
+         <parameter name="browser" value="Firefox" />
+         <parameter name="version" value="19" />
+
+
+     </parameters>
+     <classes>
+         <class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest"/>
+     </classes>
+  </test>
+     
+   <test name="Chrome Test">
+      <parameters>
+         <parameter name="platform" value="LINUX" />
+         <parameter name="browser" value="Chrome" />
+         <parameter name="version" value="26" />
+
+
+     </parameters>
+     <classes>
+         <class 
+name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest" 
+/>
+     </classes>
+  </test>
+
+<!-- 
+   <test name="IE Test">
+      <parameters>
+         <parameter name="platform" value="xp" />
+         <parameter name="browser" value="Internet Explorer"/>
+         <parameter name="version" value="10" />
+
+     </parameters>
+     <classes>
+         <class 
+name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest" 
+/>
+     </classes>
+  </test>
+
+    <test name="Iphone Test">
+      <parameters>
+         <parameter name="platform" value="ios" />
+         <parameter name="browser" value="iphone" />
+         <parameter name="version" value="5" />
+
+
+     </parameters>
+     <classes>
+         <class 
+name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest" 
+/>
+     </classes>
+  </test>
+
+     <test name="Ipad Test">
+      <parameters>
+         <parameter name="platform" value="ios" />
+         <parameter name="browser" value="ipad" />
+         <parameter name="version" value="5" />
+
+
+     </parameters>
+     <classes>
+         <class 
+name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest" 
+/>
+     </classes>
+  </test>
+
+       <test name="safari Test">
+      <parameters>
+         <parameter name="platform" value="IOS" />
+         <parameter name="browser" value="safari" />
+         <parameter name="version" value="5" />
+
+
+     </parameters>
+     <classes>
+         <class 
+name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest" 
+/>
+     </classes>
+  </test>
+     -->
+
+
+
+</suite>
+
+
+
+
+

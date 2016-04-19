@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Local Pages Selenium Suite" verbose="1">
+
+	<test name="Local Pages Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.local" />
+		</packages>
+	</test>
+	
+</suite>

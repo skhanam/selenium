@@ -1,0 +1,152 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Rated People test Suite" verbose="1">
+	<test name="Selenium"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium" />
+   		</packages>
+ 	</test>	
+  	<test name="Coresystems Pricing tests"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.pricing" />
+      	</packages>
+ 	</test>
+ 	 	<test name="Coresystems tests mails"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mail" />
+      	</packages>
+ 	</test>
+ 	<test name="Coresystems tests callback"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_callback" />
+      	</packages>
+ 	</test>
+	<test name="Coresystems tests changeplan"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_changeplan" />
+      	</packages>
+ 	</test>
+	<test name="Coresystems tests mk3 masquerade"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_masquerade" />
+      	</packages>
+ 	</test>
+ 	<test name="Coresystems tests refreshjbilling"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_refreshjbilling" />
+      	</packages>
+ 	</test>
+ 	<test name="Coresystems tests request call back"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_requestcallback" />
+      	</packages>
+ 	</test>
+ 	<test name="Coresystems tests tm balance"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmbalance" />
+      	</packages>
+ 	</test>
+ 	<test name="Coresystems tests tm user status"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus" />
+      	</packages>
+ 	</test>
+ 	<test name="Fake postcode"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.FakePostCode" />
+   		</packages>
+ 	</test>
+ 	<test name="newjobforms tests"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms" />
+   		</packages>
+ 	</test> 	
+ 	<test name="newtmsignup tests"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup" />
+   		</packages>
+ 	</test>
+ 	<test name="pjf"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.pjf" />
+   		</packages>
+ 	</test>
+ 	<test name="Selenium tests"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.tests" />
+   		</packages>
+ 	</test>
+ 	<test name="Profile tests">
+		<packages>		    			   
+			<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles" />
+		</packages>
+	</test> 	
+	<test name="ho job updating"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.ho.job.updating" />
+   		</packages>
+ 	</test>	
+	<test name="ho mobile"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.ho.mobile" />
+   		</packages>
+ 	</test>	
+	<test name="ho rating"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.ho.rating" />
+   		</packages>
+ 	</test> 	
+	<!--  
+	<test name="jbilling"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.jbilling" />
+   		</packages>
+ 	</test>
+	-->	
+	<test name="tmmobile tests"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile" />
+   		</packages>
+ 	</test>	
+	<test name="tp"   >
+    	<packages>
+      		<package name="uk.co.ratedpeople.test.functional.selenium.tp" />
+   		</packages>
+ 	</test> 	 
+ 	<test name="Tradesmen MembershipCampaign For Mobile Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.membershipcampaigns" />
+		</packages>
+	</test>
+	<test name="Tradesmen Request A CallBack for TMMobile Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral" />
+		</packages>
+	</test>	
+	<test name="Tradesmen Request A CallBack Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.ral" />
+		</packages>
+	</test>
+	<test name="Tradesmen Sign up and MembershipCampaign Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign" />
+		</packages>
+	</test>
+	<test name="Tradesmen First Second Third Buy Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.tp.firstsecondthirdbuyandtimeintent" />
+		</packages>
+	</test>
+	<test name="Tradesmen LumberJack Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.lumberjack" />
+		</packages>
+	</test>
+	<test name="Feature posting Test">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.featureposting" />
+		</packages>
+	</test>
+</suite>

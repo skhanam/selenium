@@ -1,0 +1,78 @@
+functional.test.host=preprod.preprod
+functional.test.support=support.preprod
+functional.test.tmmobile.host = tm.preprod
+functional.test.jb.host=jbillingapi.preprod
+functional.test.jb.port=80
+
+#functional.test.host=madrid.uk.ratedpeople
+#functional.test.support=madrid.uk.ratedpeople
+
+#functional.test.host=pawpaw.uk.ratedpeople
+#functional.test.support=pawpaw.uk.ratedpeople
+
+#functional.test.host=istanbul.uk.ratedpeople
+#functional.test.support=istanbul.uk.ratedpeople
+
+#functional.test.host=paris.uk.ratedpeople
+#functional.test.host=tokyo.uk.ratedpeople
+#functional.test.support=tokyo.uk.ratedpeople
+
+#functional.test.host=dev2.uk.ratedpeople
+#functional.test.host=preprod.preprod
+#functional.test.support=support.preprod
+#functional.test.jb.host=jbillingapi.preprod
+#functional.test.jb.port=80
+#functional.test.host=santiago.uk.ratedpeople
+#functional.test.host=panama.uk.ratedpeople
+#functional.test.host=jbilltestingstack.ratedpeople.com
+#functional.test.support=jbilltestingstack.ratedpeople.com
+#functional.test.host=dev3.uk.ratedpeople
+#functional.test.host=devbox21
+#functional.test.support=dev3.uk.ratedpeople
+#functional.test.jb.host=devjbilling3.uk.ratedpeople
+#functional.test.jb.port=8084
+#functional.test.host=dev4.uk.ratedpeople
+#functional.test.support=dev4.uk.ratedpeople
+#functional.test.host=staging.uk.ratedpeople
+#functional.test.support=staging.uk.ratedpeople
+#functional.test.host=preprod
+#functional.test.host=pirp.ratedpeople.com/
+#functional.test.support=support.preprod
+
+
+#functional.test.chrome.driver.location=/opt/google/chrome/chromedriver
+#functional.test.port=80
+#functional.test.tp.host=preprod.preprod
+#functional.test.tp.port=80
+#functional.test.ho.host = homeowner.preprod
+#functional.test.ho.port=80
+#functional.test.tmmobile.host = tm.preprod
+#functional.test.tmmobile.port = 80
+#functional.test.new.ho.host = homeowners.ratedpeople.com
+#functional.test.new.ho.port = 80
+#functional.test.pjf.host = jobform-staging.ratedpeople.com
+#functional.test.pjf.port = 80
+
+#functional.test.tp.host=tokyo.uk.ratedpeople
+#functional.test.ho.host = homeowner.tokyo
+#functional.test.tmmobile.host = tm.tokyo
+#functional.test.new.ho.host = homeowners.ratedpeople.com
+#functional.test.pjf.host = jobform-staging.ratedpeople.com
+
+
+#functional.test.ho.host = dev2-homeowner.uk.ratedpeople
+#functional.test.firefox.profile = satish.sabapathi
+#functional.test.sauce.url = http://ratedtester:81e2d697-775e-404a-9d0b-634134da3a18@ondemand.saucelabs.com:80/wd/hub
+#functional.test.sauce.browser = chrome
+# if you want to run on local box just comment the below two 
+#functional.test.selenium.local.server.hub=http://jenkins.uk.ratedpeople:4444/wd/hub
+#functional.test.selenium.saucelabs.server.hub=http://ratedtester:81e2d697-775e-404a-9d0b-634134da3a18@ondemand.saucelabs.com:80/wd/hub
+
+#functional.test.selenium.saucelabs.browser=firefox
+#functional.test.default.browser.version=20
+#functional.test.default.platform=VISTA
+#functional.test.default.desktop.end.point=local
+#functional.test.default.tablet.end.point=local
+#functional.test.default.mobile.end.point=local
+#functional.test.default.tablet.device=none
+#functional.test.default.mobile.device=none

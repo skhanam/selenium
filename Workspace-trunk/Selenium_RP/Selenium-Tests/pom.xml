@@ -1,0 +1,367 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>uk.co.ratedpeople</groupId>
+	<artifactId>Selenium-Tests</artifactId>
+	<version>0.0.249-SNAPSHOT</version>
+	<name>Selenium tests repository</name>
+	<packaging>pom</packaging>
+
+
+	<url>http://trac/websites/${project.groupId}/${project.artifactId}/${project.version}</url>
+	<issueManagement>
+	</issueManagement>
+
+	<!-- Custom Property definitions used globally in the NEW-TP-EXPERIENCE 
+		project -->
+	<properties>
+		<rplibs.version>2.1204-SNAPSHOT</rplibs.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<selenium.version>2.43.1</selenium.version>
+		<apache.http.components.version>4.3.2</apache.http.components.version>
+		<slf4j.version>1.6.1</slf4j.version>
+		<spring.version>3.0.5.RELEASE</spring.version>
+		<mysql.connector.version>5.1.6</mysql.connector.version>
+	</properties>
+
+	<scm>
+		<connection>scm:svn:http://trac/svn/ratedpeople/Selenium-Tests/trunk</connection>
+		<developerConnection>scm:svn:http://trac/svn/ratedpeople/Selenium-Tests/trunk</developerConnection>
+	</scm>
+	<organization>
+		<name>Rated People</name>
+		<url>http://www.ratedpeople.com/</url>
+	</organization>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<maxmem>2048</maxmem>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<version>2.5</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.maven.wagon</groupId>
+						<artifactId>wagon-ssh</artifactId>
+						<version>1.0</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+		</plugins>
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings 
+					only. It has no influence on the Maven build itself. -->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											org.zeroturnaround
+										</groupId>
+										<artifactId>
+											jrebel-maven-plugin
+										</artifactId>
+										<versionRange>
+											[1.1.3,)
+										</versionRange>
+										<goals>
+											<goal>generate</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore />
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	<!-- maybe we can remove it -->
+	<dependencies>
+		<!-- Third Party -->
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>1.1.6</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.1.6</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.htmlunit</groupId>
+			<artifactId>htmlunit</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>1.1.2</version>
+			<scope>test</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>org.testng</groupId>
+					<artifactId>testng</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-core</artifactId>
+			<version>1.1.6</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.inject</groupId>
+			<artifactId>guice</artifactId>
+			<version>3.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-support</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${apache.http.components.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient-cache</artifactId>
+			<version>${apache.http.components.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore-osgi</artifactId>
+			<version>4.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.htmlcleaner</groupId>
+			<artifactId>htmlcleaner</artifactId>
+			<version>2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.2.3</version>
+		</dependency>
+		<!-- slf4j must be forces to be consisted for all dependancies else it 
+			can cause issues and will throw warnings. -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.monte</groupId>
+			<artifactId>monte-screen-recorder</artifactId>
+			<version>0.7.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+
+	</dependencies>
+	<!-- maybe we can remove it -->
+
+	<repositories>
+		<repository>
+			<id>rp.external.artifactory.snapshot</id>
+			<name>Rated People External Artifactory Server</name>
+			<url>http://trac:8081/artifactory/libs-snapshot-local</url>
+			<releases>
+				<enabled>false</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>rp.external.artifactory.release</id>
+			<name>Rated People External Artifactory Server</name>
+			<url>http://trac:8081/artifactory/libs-release-local</url>
+			<releases>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<!-- Integration Functional Tests for REST Resources ONLY. -->
+	<!-- Profiles -->
+	<profiles>
+		<profile>
+			<id>rest-tests</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.5</version>
+						<configuration>
+							<properties>
+								<property>
+									<name>usedefaultlisteners</name>
+									<value>false</value>
+								</property>
+								<property>
+									<name>listener</name>
+									<value>org.uncommons.reportng.HTMLReporter,
+										org.uncommons.reportng.JUnitXMLReporter</value>
+								</property>
+							</properties>
+							<workingDirectory>target/</workingDirectory>
+						</configuration>
+					</plugin>
+					<plugin>
+						<!--run tests in the integration-test phase -->
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.7.2</version>
+						<executions>
+							<execution>
+								<id>surefire-it</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>test</goal>
+								</goals>
+								<configuration>
+									<skip>false</skip>
+
+									<includes>
+										<include>**/*FunctionalTest.java</include>
+									</includes>
+
+									<systemProperties>
+										<property>
+											<name>functional.test.host</name>
+											<value>${functional.test.host}</value>
+										</property>
+										<property>
+											<name>functional.test.port</name>
+											<value>${functional.test.port}</value>
+										</property>
+									</systemProperties>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+	<modules>
+
+		<module>selenium-tests-module</module>
+	</modules>
+	<distributionManagement>
+		<!-- when this has been built where should it be placed so that others 
+			can download it? -->
+		<!-- both of these entries need matching sections in Hudson's settings.xml 
+			to define the username / pw etc -->
+		<snapshotRepository>
+			<id>trac.uk.ratedpeople</id>
+			<name>trac.uk.ratedpeople-snapshots</name>
+			<url>http://trac:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+
+		<repository>
+			<id>trac.uk.ratedpeople</id>
+			<name>trac.uk.ratedpeople-releases</name>
+			<url>http://trac:8081/artifactory/libs-release-local</url>
+		</repository>
+
+		<!-- when the website for this module has been built where should the files 
+			be put ? -->
+		<site>
+			<id>ratedwebsite</id>
+			<name>Rated Repository</name>
+			<url>scp://trac/opt/websites/websites/${project.groupId}/${project.artifactId}/${project.version}</url>
+		</site>
+	</distributionManagement>
+</project>
+

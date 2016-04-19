@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Tm and mobile Testsuite" verbose="1">
+
+	<test name="Sanity TM Selenium Tests">			
+		<classes>
+			
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.ral" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.test.profiles" />			
+			<class name="uk.co.ratedpeople.test.functional.selenium.tp" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tp.firstsecondthirdbuyandtimeintent" />
+			
+		</classes>
+	</test>	
+</suite>

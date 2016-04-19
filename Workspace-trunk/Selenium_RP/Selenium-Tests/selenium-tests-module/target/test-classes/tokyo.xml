@@ -1,0 +1,21 @@
+<suite name="Parallel Tests" verbose="1" thread-count="1" parallel="tests">
+
+<test name="Regression Tests">
+		<parameters>
+	<!-- 		<parameter name="Tokyo" value="tokyo.uk.ratedpeople" />  -->
+			<parameter name="environment" value="tokyo.uk.ratedpeople" />
+			<parameter name="browser" value="Firefox" />
+			<parameter name="version" value="20" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="Shabana" />
+			<parameter name="ENVIRONMENT_VARIABLE_PATH" value="classpath:/uk/co/ratedpeople/environment/tokyo.properties" />
+			<parameter name="platform" value="Linux" />
+		</parameters>
+		<packages>
+		    	<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms" />
+		
+		</packages>
+	</test>
+	
+	</suite>

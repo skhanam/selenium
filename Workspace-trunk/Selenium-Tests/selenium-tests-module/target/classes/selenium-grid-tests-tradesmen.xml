@@ -1,0 +1,240 @@
+<suite name="Parallel Tests" verbose="1" thread-count="11" parallel="tests">
+
+	<!-- ############### VISTA TESTS ################ -->
+		
+	<test name="Vista IE 10 Test">
+		<!-- <groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups> -->
+	   <parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="IE" />
+			<parameter name="version" value="10" />
+			<parameter name="device" value="desktop" />
+		</parameters>
+		<packages>
+			
+  				<!-- <package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" /> -->
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<!-- <package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" /> -->
+		
+		</packages>
+	</test>
+	
+<!-- 	<test name="Vista IE 9 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="IE" />
+			<parameter name="version" value="9" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+			
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		
+		</packages>
+	</test>
+	
+	<test name="Vista IE 8 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="IE" />
+			<parameter name="version" value="8" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="FIREFOX 20 WINDOWS 7 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="Firefox" />
+			<parameter name="version" value="20" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="FIREFOX 21 WINDOWS 7 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="Firefox" />
+			<parameter name="version" value="21" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="CHROME 25 WINDOWS 7 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="VISTA" />
+			<parameter name="browser" value="Chrome" />
+			<parameter name="version" value="25" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	############### XP TESTS ################
+	<test name="XP IE 8 Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="XP" />
+			<parameter name="browser" value="IE" />
+			<parameter name="version" value="8" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="FIREFOX 20 XP Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="XP" />
+			<parameter name="browser" value="Firefox" />
+			<parameter name="version" value="20" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="FIREFOX 21 XP Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="XP" />
+			<parameter name="browser" value="Firefox" />
+			<parameter name="version" value="21" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	
+	<test name="CHROME 25 XP Test">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+			</run>
+		</groups>
+		<parameters>
+			<parameter name="platform" value="XP" />
+			<parameter name="browser" value="Chrome" />
+			<parameter name="version" value="25" />
+			<parameter name="device" value="desktop" />
+			<parameter name="deviceModel" value="" />
+		</parameters>
+		<packages>
+  			<package name="uk.co.ratedpeople.test.functional.selenium.newtmsignup.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.test.profiles.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.ral.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.ral.*" />
+		</packages>
+	</test>
+	 -->
+	
+</suite>

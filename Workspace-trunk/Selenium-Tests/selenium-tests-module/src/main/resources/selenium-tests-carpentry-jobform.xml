@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Carpentry Selenium Suite" verbose="1">
+
+	<test name="Carpentry Jobform Selenium Tests">
+	<groups>
+			<run>
+				<include name='sanity'/> 
+				<include name='regression'/> 
+			</run>
+		</groups>
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.carpentry" />
+		</packages>
+	</test>
+	
+</suite>

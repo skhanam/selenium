@@ -1,0 +1,46 @@
+functional.test.host=devbox05.uk.ratedpeople
+#functional.test.host=dev2.uk.ratedpeople
+#functional.test.host=preprod.preprod
+#functional.test.host=app1www.preprod
+functional.test.port=80
+
+functional.test.support=devbox05.uk.ratedpeople
+
+functional.test.jb.host=devbox05.uk.ratedpeople
+functional.test.jb.port=8082
+
+functional.test.tp.host=devbox05.uk.ratedpeople
+#functional.test.tp.host=dev2.uk.ratedpeople
+#functional.test.tp.host=tradesmen.preprod
+functional.test.tp.port=80
+
+functional.test.ho.host=homeowner-devbox05
+#functional.test.ho.host=homeowner-dev2.uk.ratedpeople
+#functional.test.ho.host=homeowner.preprod
+functional.test.ho.port=80
+
+functional.test.chrome.driver.location=/opt/google/chrome/chromedriver
+
+# An Active Tradesman User, billed via WAQS
+# - devbox09 versions -
+#functional.test.user.tm.active.waqs.username=gordon.altair@ratedtrades.com
+#functional.test.user.tm.active.waqs.password=password
+
+# An Active Tradesman User, billed via jBilling
+# - devbox09 versions -
+#functional.test.user.tm.active.jbilling.username=john.jordan.jbilling@ratedtrades.com
+#functional.test.user.tm.active.jbilling.password=password
+
+# An Active Agent User
+# - devbox09 versions -
+#functional.test.agent.active.username=automated.agent@ratedtrades.com
+#functional.test.agent.active.password=password
+
+functional.test.selenium.saucelabs.browser=firefox
+functional.test.default.browser.version=21
+functional.test.default.platform=linux
+functional.test.default.desktop.end.point=local
+functional.test.default.tablet.end.point=local
+functional.test.default.mobile.end.point=local
+functional.test.default.tablet.device=none
+functional.test.default.mobile.device=none

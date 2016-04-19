@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Plumbing Jobform Selenium Suite" verbose="1">
+
+	<test name="Plumbing Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Tiling Selenium Suite" verbose="1">
+
+	<test name="Tiling Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.tiling" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Slate Tiled Roof Jobform Selenium Suite" verbose="1">
+
+	<test name="Slate Tiled Roof Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.slatetiledroofs" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Plumbing Jobform Selenium Suite" verbose="1">
+
+	<test name="Plumbing Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Plastering And Rendering Jobform Selenium Suite" verbose="1">
+
+	<test name="Plastering And Rendering Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plasteringnrendering" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="New Builds Selenium Suite" verbose="1">
+
+	<test name="New Builds Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.newbuilds" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Local Pages Selenium Suite" verbose="1">
+
+	<test name="Local Pages Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.local" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Kitchen Jobform Selenium Suite" verbose="1">
+
+	<test name="Kitchen Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.kitchen" />
+		</packages>
+	</test>
+	
+</suite>
+
+<suite name="Internal Wooden Door Jobform Selenium Suite" verbose="1">
+
+	<test name="Internal Wooden Door Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalwoodendoor" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Internal Renovation Jobform Selenium Suite" verbose="1">
+
+	<test name="Internal Renovation Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalrenovation" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Generic Jobform Selenium Suite" verbose="1">
+
+	<test name="Generic Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.generic" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Gas Boiler Jobform Selenium Suite" verbose="1">
+
+	<test name="Gas Boiler Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.gasboilers" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Garden Jobform Selenium Suite" verbose="1">
+
+	<test name="Garden Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.garden" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Flooring Selenium Suite" verbose="1">
+
+	<test name="Flooring Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flooring" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Flat Roof Jobform Selenium Suite" verbose="1">
+
+	<test name="Flat Roof Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flatroofs" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Fences Jobform Selenium Suite" verbose="1">
+
+	<test name="Fences Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.fences" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="External Wooden Door Jobform Selenium Suite" verbose="1">
+
+	<test name="External Wooden Door Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.externalwoodendoor" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Electrical Jobform Selenium Suite" verbose="1">
+
+	<test name="Electrical Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.electrical" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Chimney Jobform Selenium Suite" verbose="1">
+
+	<test name="Chimney Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.chimney" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Carpentry Selenium Suite" verbose="1">
+
+	<test name="Carpentry Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.carpentry" />
+		</packages>
+	</test>
+	
+</suite>
+<suite name="Bathroom Selenium Suite" verbose="1">
+
+	<test name="Bathroom Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.bathroom" />
+		</packages>
+	</test>
+	
+</suite>

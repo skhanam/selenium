@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression JobForm Testsuite" verbose="1">
+	<test name="Regression Jobform Selenium Tests">
+	<groups>
+			<run>
+				<include name='regression'/> 
+			</run>
+		</groups>
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.*" />
+			<package name="uk.co.ratedpeople.test.functional.selenium.local.*" />
+		</packages>
+	</test>
+	
+</suite>

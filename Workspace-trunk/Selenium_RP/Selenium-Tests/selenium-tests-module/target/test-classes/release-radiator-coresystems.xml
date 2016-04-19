@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Testsuite" verbose="1">
+
+	<test name="Sanity Selenium Tests">
+	    <classes>
+	        <class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mail.ConfirmEmailSentExistingHoExistingTmTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mail.ConfirmEmailSentNewHoExistingTmTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmbalance.VerifyFreeBalanceandSpecialCreditMK3Test" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3OverriddenTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3NotVerifiedTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3VerifiedTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.pricing.PriceJobBySkillAndTimeTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.pricing.PriceJobBySkillTimeAndIntentTest" />
+						<class name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign.PMDOfferForNewTMSignUpVarEWithExistingCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyGasJobByAddingCertificateTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyLeadExistingCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyLeadNewCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.LoginToSupportTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.PaginationTest" />
+			 </classes>				
+	</test>	
+</suite>

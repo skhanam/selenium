@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity JobForm Testsuite" verbose="1">
+	<test name="tests for new jobforms">			
+		<classes>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.bathroom.PostingJobViaBathroomJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.carpentry.PostingJobViaCarpentryJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.chimney.PostingJobViachimneyJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.electrical.PostingJobviaElectricalJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.externalwoodendoor.PostingJobviaExternalWoodenDoorsJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flatroofs.PostingJobviaFlatRoofsJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flooring.PostingJobViaFlooringJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.garden.PostingJobviaGardenJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.gasboilers.PostingJobviaGasBoilersJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalpaintingdecorating.PostingJobviaInternalPaintingDecoratingJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalrenovation.PostingJobviaInternalRenovationJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalwoodendoor.PostingJobViaInternalWoodenDoorJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.kitchen.PostingJobViaKitchenJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.newbuilds.PostingJobViaNewBuildJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plasteringnrendering.PostingJobViaPlasteringnRenderingJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.slatetiledroofs.PostingJobViaSlateTiledRoofJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.tiling.PostingJobViaTilingJobFormsTest"/>			
+		</classes>
+	</test>	
+</suite>

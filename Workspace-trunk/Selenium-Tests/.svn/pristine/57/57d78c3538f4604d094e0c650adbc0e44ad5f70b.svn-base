@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Testsuite" verbose="1">
+
+	<test name="Sanity Selenium Tests">
+	    <classes>
+	        <class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.bathroom.PostingJobViaBathroomJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.carpentry.PostingJobViaCarpentryJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.chimney.PostingJobViachimneyJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.electrical.PostingJobviaElectricalJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.externalwoodendoor.PostingJobviaExternalWoodenDoorsJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flatroofs.PostingJobviaFlatRoofsJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.flooring.PostingJobViaFlooringJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.garden.PostingJobviaGardenJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.gasboilers.PostingJobviaGasBoilersJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalpaintingdecorating.PostingJobviaInternalPaintingDecoratingJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalrenovation.PostingJobviaInternalRenovationJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalwoodendoor.PostingJobViaInternalWoodenDoorJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.kitchen.PostingJobViaKitchenJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.newbuilds.PostingJobViaNewBuildJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plasteringnrendering.PostingJobViaPlasteringnRenderingJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.plumbing.PostJobViaPlumbingJobFormTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.slatetiledroofs.PostingJobViaSlateTiledRoofJobFormsTest"/>
+			<class name="uk.co.ratedpeople.test.functional.selenium.newjobforms.tiling.PostingJobViaTilingJobFormsTest"/>
+		    <class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariantETest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariantE_ManualAddressTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariant_E_AndCheckTariffAndSkillsTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariant_E_DynamicTextCheckTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mail.ConfirmEmailSentExistingHoExistingTmTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mail.ConfirmEmailSentNewHoExistingTmTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmbalance.VerifyFreeBalanceandSpecialCreditMK3Test" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3OverriddenTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3NotVerifiedTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.mk3_tmuserstatus.CheckMK3VerifiedTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.pricing.PriceJobBySkillAndTimeTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.coresystems.pricing.PriceJobBySkillTimeAndIntentTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign.PMDOfferForNewTMSignUpVarEWithExistingCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyGasJobByAddingCertificateTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyLeadExistingCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.BuyLeadNewCardTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.LoginToSupportTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tests.PaginationTest" />	
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LoginTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LoginToJBillingTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LogoutTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.NotificationTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.PurchaseJobTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.UpdateAddressTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.requestCallBackAndRating.RequestACallBacktmmobileTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.requestCallBackAndRating.RequestARatingtmmobileTest" />
+		</classes>				
+	</test>	
+</suite>

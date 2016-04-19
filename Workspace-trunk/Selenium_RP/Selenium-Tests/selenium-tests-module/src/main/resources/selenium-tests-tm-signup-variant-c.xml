@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Tradesmen  Selenium Suite" verbose="1">
+	<test name="TM Sign up Tests Variant C">
+		<packages>
+			<package
+				name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varC" />
+		</packages>
+	</test>
+</suite>

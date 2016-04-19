@@ -1,0 +1,31 @@
+# Default set of environment properties for those contexts in which no explicit set can be identified. 
+# Jenkins uses these properties for the functional test build
+functional.test.host=javadev02
+functional.test.port=80
+functional.test.tp.host=tradesmen-dubai.uk.ratedpeople
+functional.test.tp.port=80
+functional.test.ho.host=homeowner-dubai.uk.ratedpeople
+functional.test.ho.port=80
+functional.test.pjf.host=jobform-prestaging.ratedpeople.com
+functional.test.pjf.port=80
+functional.test.chrome.driver.location=/opt/google/chrome/chromedriver
+functional.test.selenium.server.port=5092
+
+# An Active Tradesman User, billed via WAQS
+functional.test.user.tm.active.waqs.username=sdlandscapes@ratedtrades.com
+functional.test.user.tm.active.waqs.password=password
+
+# An Active Tradesman User, billed via jBilling
+functional.test.user.tm.active.jbilling.username=certified.jbilling@ratedtrades.com
+functional.test.user.tm.active.jbilling.password=password
+
+# An Active Agent User
+functional.test.user.agent.active.username=automated.agent@ratedtrades.com
+functional.test.user.agent.active.password=password
+
+
+functional.test.tmmobile.host = tm-dubai.uk.ratedpeople
+functional.test.tmmobile.port = 80
+
+functional.test.new.ho.host = homeowners-dubai.uk.ratedpeople
+functional.test.new.ho.port = 80

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Testsuite" verbose="1">
+
+	<test name="Regression Selenium Tests">
+	<packages>
+		    	<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tmmobile" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tests.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tests" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tests.profiles*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tests.profiles" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.tp" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.newtmmembershipcampaign" />
+  	</packages>			
+	</test>	
+</suite>

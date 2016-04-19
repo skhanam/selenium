@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Testsuite" verbose="1">
+
+	<test name="Sanity Selenium Tests">
+	    <classes>
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LoginTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LoginToJBillingTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.LogoutTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.NotificationTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.PurchaseJobTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.UpdateAddressTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.requestCallBackAndRating.RequestACallBacktmmobileTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmmobile.requestCallBackAndRating.RequestARatingtmmobileTest" />
+	 </classes>				
+	</test>	
+</suite>

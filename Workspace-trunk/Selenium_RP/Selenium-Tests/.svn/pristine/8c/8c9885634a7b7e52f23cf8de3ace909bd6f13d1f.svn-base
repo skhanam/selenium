@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Internal Renovation Jobform Selenium Suite" verbose="1">
+
+	<test name="Internal Renovation Jobform Selenium Tests">
+		<packages>
+			<package name="uk.co.ratedpeople.test.functional.selenium.newjobforms.internalrenovation" />
+		</packages>
+	</test>
+	
+</suite>

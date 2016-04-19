@@ -1,0 +1,93 @@
+#functional.test.host=jbilltestingstack2.ratedpeople.com
+#functional.test.port=80
+#functional.test.support=jbilltestingstack2.ratedpeople.com
+#functional.test.jb.host=jbilltestingstack2.ratedpeople.com
+#functional.test.jb.port=8082
+#functional.test.tp.host=jbilltestingstack2tm.ratedpeople.com
+#functional.test.tp.port=444
+
+functional.test.host=preprod.preprod
+functional.test.support=support.preprod
+functional.test.tmmobile.host = tm.preprod
+functional.test.jb.host=jbillingapi.preprod
+functional.test.jb.port=80
+
+#functional.test.host=tokyo.uk.ratedpeople
+#functional.test.support=tokyo.uk.ratedpeople
+#functional.test.tmmobile.host =tokyo.uk.ratedpeople
+#functional.test.jb.host=jbillingapi.tokyo.uk.ratedpeople
+#functional.test.jb.port=80
+
+
+#functional.test.host=dubai.uk.ratedpeople
+#functional.test.support=dubai.uk.ratedpeople
+#functional.test.tmmobile.host =dubai.uk.ratedpeople
+#functional.test.jb.host=jbillingapi.dubai.uk.ratedpeople
+#functional.test.jb.port=80
+
+#functional.test.host=jbilltest1.uk.ratedpeople
+#functional.test.support=jbilltest1.uk.ratedpeople
+
+#functional.test.host=devbox06.uk.ratedpeople
+#functional.test.support=devbox06.uk.ratedpeople
+
+#functional.test.host=devbox21.uk.ratedpeople
+#functional.test.support=devbox21.uk.ratedpeople
+#functional.test.tmmobile.host = devbox21.uk.ratedpeople
+#functional.test.jb.host=jbillingapi.tokyo
+#functional.test.jb.port=80
+
+#functional.test.host=istanbul.uk.ratedpeople
+#functional.test.support=istanbul.uk.ratedpeople
+
+
+#functional.test.host=pirp.ratedpeople.com
+#functional.test.support=pirp.ratedpeople.com
+
+
+#functional.test.host=paris.uk.ratedpeople
+#functional.test.support=paris.uk.ratedpeople
+
+#functional.test.host=tokyo.uk.ratedpeople
+#functional.test.support=tokyo.uk.ratedpeople
+
+#functional.test.host=jbilltestingstack2.ratedpeople.com
+#functional.test.support=jbilltestingstack2.ratedpeople.com
+
+#functional.test.host=jbilltest1.uk.ratedpeople
+#functional.test.support=jbilltest1.uk.ratedpeople
+
+#functional.test.host=cloudrp.ratedpeople.com
+#functional.test.support=cloudrp.ratedpeople.com
+#functional.test.host=jbilltestingstack.ratedpeople.com
+#functional.test.support=jbilltestingstack.ratedpeople.com
+#functional.test.host=devtm.uk.ratedpeople
+#functional.test.support=devtm.uk.ratedpeople
+
+#uncomment this settings to connect to dev3 browser
+#functional.test.host=dev3.uk.ratedpeople
+#functional.test.support=dev3.uk.ratedpeople
+#functional.test.tmmobile.host = dev3tm.uk.ratedpeople
+#functional.test.jb.host=devjbilling3.uk.ratedpeople
+#functional.test.jb.port=8084
+
+#uncomment this settings to connect to staging browser
+#functional.test.host=staging.uk.ratedpeople
+#functional.test.support=staging.uk.ratedpeople
+#functional.test.tmobile.host=preprod
+#functional.test.host=pirp2.ratedpeople.com
+#functional.test.support=pirp.ratedpeople.com
+
+#functional.test.tmmobile.port = 80
+#functional.test.port=80
+#functional.test.tp.host=tpweb
+#functional.test.tp.host=preprod.preprod
+#functional.test.tp.port=80
+#functional.test.ho.host = dev3-homeowner.uk.ratedpeople
+#functional.test.ho.host = homeowner.preprod
+#functional.test.ho.host = homeowner-devbox08.uk.ratedpeople
+#functional.test.ho.port=80
+
+#uncomment this settings to connect to cloud browser
+#functional.test.sauce.url = http://ratedtester:81e2d697-775e-404a-9d0b-634134da3a18@ondemand.saucelabs.com:80/wd/hub
+#functional.test.sauce.browser = chrome

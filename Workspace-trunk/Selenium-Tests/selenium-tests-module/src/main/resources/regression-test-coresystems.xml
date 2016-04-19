@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Testsuite" verbose="1">
+
+	<test name="Regression Selenium Tests">
+	   <packages>
+		    	<package name="uk.co.ratedpeople.test.functional.selenium.coresystems.*" />
+  				<package name="uk.co.ratedpeople.test.functional.selenium.coresystems" />		
+		</packages>	
+	</test>	
+</suite>

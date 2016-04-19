@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sanity Testsuite" verbose="1">
+
+	<test name="Sanity Selenium Tests">
+	    <classes>
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariantETest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariantE_ManualAddressTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariant_E_AndCheckTariffAndSkillsTest" />
+			<class name="uk.co.ratedpeople.test.functional.selenium.tmsignupvariance.varE.SignUpVariant_E_DynamicTextCheckTest" />
+			 </classes>				
+	</test>	
+</suite>
